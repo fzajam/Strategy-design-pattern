@@ -4,6 +4,10 @@ public class MergeSort implements Strategy {
     public void sort(int[] numbers) {
     	int n=numbers.length;
         mergeSort(numbers,n);
+        for(int i=0; i <n; i++)
+        {
+                System.out.print(numbers[i] + " ");  
+        }
         System.out.println("sorting array using merge sort strategy");
 
     }

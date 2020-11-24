@@ -2,8 +2,12 @@ package str;
 
 public class QuickSort implements Strategy {
 	public void sort(int[] numbers)
-    {int longueur=numbers.length;
-     qSort(numbers,0,longueur-1);
+    {int n=numbers.length;
+     qSort(numbers,0,n-1);
+     for(int i=0; i <n; i++)
+     {
+             System.out.print(numbers[i] + " ");  
+     }
      System.out.println("sorting array using quick sort strategy");
     }
 	public static void echanger(int[]numbers, int m, int n) {

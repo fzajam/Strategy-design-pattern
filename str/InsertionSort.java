@@ -13,6 +13,10 @@ public class InsertionSort implements Strategy {
 		    } 
 		   numbers[ j ]   =  v  ; 
 		   }
+		  for(int i=0; i <n; i++)
+	         {
+	                 System.out.print(numbers[i] + " ");  
+	         }
 		  System.out.println("sorting array using insertion sort strategy");
 		 }
        
